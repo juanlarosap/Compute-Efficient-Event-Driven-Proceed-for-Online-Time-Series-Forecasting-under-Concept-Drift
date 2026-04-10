@@ -31,38 +31,6 @@ The main finding of this work is that **Proceed-ET** substantially improves comp
 - A combined ET+ER variant
 - An experimental analysis covering both predictive accuracy and computational efficiency
 
-## Repository Structure
-
-```text
-.
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── pyproject.toml
-├── run.py
-├── settings.py
-├── scripts/
-├── models/
-├── layers/
-├── adapter/
-├── data_provider/
-├── dataset/
-├── results/
-└── [ADD OTHER RELEVANT FILES/FOLDERS HERE]
-```
-
-## Installation
-
-Clone the repository and install the dependencies in a virtual environment:
-
-```bash
-git clone [ADD REPOSITORY URL HERE]
-cd [ADD REPOSITORY NAME HERE]
-
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
 
 ## Datasets
 
@@ -72,10 +40,6 @@ This work uses the following datasets:
 - **Weather**
 
 Please place the dataset files in the locations expected by `settings.py`.
-
-Dataset preparation details:
-- [ADD DATASET DOWNLOAD INSTRUCTIONS HERE]
-- [ADD EXPECTED DIRECTORY STRUCTURE HERE]
 
 ## Reproducing Experiments
 
@@ -178,10 +142,11 @@ If you use the original implementation, please also refer to the original reposi
 ## Citation
 
 If you use this repository, please cite:
+  author       = {La Rosa, Juan and Berton, Lilian},
+  booktitle    = {Proceedings of the IJCNN 2026},
+  title        = {Compute-Efficient Event-Driven Proceed for Online Time Series Forecasting under Concept Drift},
+  year         = {2026},
 
-```bibtex
-[ADD BIBTEX FOR THIS PAPER HERE]
-```
 
 Please also cite the original PROCEED paper when appropriate:
 
@@ -195,12 +160,4 @@ Please also cite the original PROCEED paper when appropriate:
   publisher    = {{ACM}},
   doi          = {10.1145/3690624.3709210},
 }
-```# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
-# Compute-Efficient-Event-Driven-Proceed-for-Online-Time-Series-Forecasting-under-Concept-Drift
+
