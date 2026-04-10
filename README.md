@@ -142,11 +142,14 @@ If you use the original implementation, please also refer to the original reposi
 ## Citation
 
 If you use this repository, please cite:
-  author       = {La Rosa, Juan and Berton, Lilian},
-  booktitle    = {Proceedings of the IJCNN 2026},
-  title        = {Compute-Efficient Event-Driven Proceed for Online Time Series Forecasting under Concept Drift},
-  year         = {2026},
 
+```bibtex
+@InProceedings{LaRosaBerton2026,
+  author    = {La Rosa, Juan and Berton, Lilian},
+  booktitle = {Proceedings of the IJCNN 2026},
+  title     = {Compute-Efficient Event-Driven Proceed for Online Time Series Forecasting under Concept Drift},
+  year      = {2026},
+}
 
 Please also cite the original PROCEED paper when appropriate:
 
