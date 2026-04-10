@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OnlineTSF"
+dynamic = ["version"]
+description = "An online time series forecasting framework"
+readme = "README.md"
+authors = [
+    { name = "Lifan Zhao", email = "mogician233@sjtu.edu.cn" }
+]
+license = { text = "Apache-2.0" }
+keywords = ["time series forecasting", "online learning"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "pprintpp",
+    "matplotlib",
+    "transformers",
+    "einops"
+]
+[tool.setuptools]
+py-modules = []

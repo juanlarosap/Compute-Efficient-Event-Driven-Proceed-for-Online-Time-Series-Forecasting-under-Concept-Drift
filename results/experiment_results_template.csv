@@ -1,0 +1,13 @@
+﻿Summary (auto-pulled means from dataset sheets),,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Dataset,Method,MSE (mean),MSE (std),MAE (mean),MAE (std),total_time_s (mean),total_time_s (std),msec/step (mean),sec/step (std),%updates (mean),%updates (std),%retrieval (mean),%retrieval (std)
+ETTh2,iTransformer (No Proceed),6.40,0.28,0.94,0.02,37.72,0.86,2.77,0.06,100.00,0.00,,
+ETTh2,Proceed (Original),5.83,0.13,0.91,0.01,90.14,1.10,6.37,0.06,100.00,0.00,,
+ETTh2,Proceed-TH,6.35,0.17,0.93,0.01,52.02,0.49,2.93,0.06,23.79,0.34,,
+ETTh2,Proceed-ER,5.82,0.14,0.91,0.01,94.64,2.37,6.63,0.15,100.00,0.00,0.94,0.02
+ETTh2,Proceed-TH+ER,6.35,0.17,0.93,0.01,62.85,0.87,3.57,0.06,23.77,0.21,1.4,0.04
+Weather,iTransformer (No Proceed),2.67,0.05,0.93,0.02,790.60,21.75,16.40,0.44,100.00,0.00,,
+Weather,Proceed (Original),2.47,0.34,0.84,0.06,1556.27,68.63,33.30,1.51,100.00,0.00,,
+Weather,Proceed-TH,2.41,0.11,0.83,0.02,870.15,48.75,16.20,0.96,39.15,0.86,,
+Weather,Proceed-ER,2.56,0.25,0.86,0.04,1649.99,38.66,35.27,0.85,100.00,0.00,2.49,0.03
+Weather,Proceed-TH+ER,2.37,0.20,0.84,0.04,850.14,19.10,15.70,0.36,39.08,1.21,2.79,0.05
