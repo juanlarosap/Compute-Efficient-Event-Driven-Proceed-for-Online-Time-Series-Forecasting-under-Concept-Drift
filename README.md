@@ -150,7 +150,7 @@ If you use this repository, please cite:
   title     = {Compute-Efficient Event-Driven Proceed for Online Time Series Forecasting under Concept Drift},
   year      = {2026},
 }
-
+```
 Please also cite the original PROCEED paper when appropriate:
 
 ```bibtex
@@ -163,4 +163,4 @@ Please also cite the original PROCEED paper when appropriate:
   publisher    = {{ACM}},
   doi          = {10.1145/3690624.3709210},
 }
-
+```
